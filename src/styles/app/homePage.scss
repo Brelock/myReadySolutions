@@ -1,0 +1,34 @@
+// обнуление данных в инпутах
+.section-1{
+	.calculator-list-forms{
+		width: 100%;
+		max-width: 300px;
+		position: relative;
+		@media (min-width: $containerWidth) {
+			background-color: #fff;
+			border-radius: 0 3px 3px 0;
+		}
+	}
+	.calculator-forms{
+		input{
+			border: none;
+		}
+	}
+	.forms-button-another{
+		margin-top: 10px;
+		height: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color: $borderColor;
+		border: 2px solid #7f7f7f;
+		&:hover{
+			border: 2px solid #4e4e4e;
+			background-color: transparent;
+		}
+	}
+	.calculator-forms-header{
+		justify-content: center;
+		align-items: center;
+	}
+}
+// ----- ----- ------ 

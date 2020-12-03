@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>title</title>
+    <!--  -->
+    @@include('templateHtml/head.html')
+    <!--  -->
+  </head>
+
+  <body>
+    <div class="mainWrapper">
+      <div class="contentWrapper">
+        <!--  -->
+        @@include('templateHtml/header.html', { "home": "active" })
+        <!--  -->
+        <div class="homePage">
+          <section class="section-1">
+            <div class="mcontainer">
+              <h3>Обнуление таблицы</h3>
+              <div class="calculator-list-forms">
+                <form class="calculator-forms slabs slabs-input active">
+                  <div class="calculator-forms-body">
+                    <fieldset class="data-inp-forms inp-feet">
+                      <legend>Length</legend>
+                      <label for="inp-l-v1"></label>
+                      <input name="length" type="text" data-img="/img/inp-l-v1.png" id="inp-l-v1" placeholder="0">
+                    </fieldset>
+                    <fieldset class="data-inp-forms inp-feet">
+                      <legend>Width</legend>
+                      <label for="inp-w-v1"></label>
+                      <input name="width" type="text" data-img="/img/inp-w-v1.png" id="inp-w-v1" placeholder="0">
+                    </fieldset>
+                    <fieldset class="data-inp-forms inp-inches">
+                      <legend>Thickness or Height</legend>
+                      <label for="inp-Th-v1"></label>
+                      <input name="height" type="text" data-img="/img/inp-Th-v1.png" id="inp-Th-v1" placeholder="0">
+                    </fieldset>
+                    <fieldset class="data-inp-forms">
+                      <legend>Quantity</legend>
+                      <label for="inp-Q-v1"></label>
+                      <input name="quantity" type="text" data-img="/img/slabs-def.png" id="inp-Q-v1" placeholder="0">
+                    </fieldset>
+                  </div>
+                  <div class="calculator-forms-header flex">
+                    <button class="forms-button-another">
+                      Another Calculation
+                    </button>
+                  </div>
+                </form>               
+              </div>
+            </div>
+          </section>
+
+
+
+
+
+        </div>
+        <!--  -->
+      </div>
+      <!--  -->
+     
+       <!-- @@include('templateHtml/modal.html')  -->
+      <!--  -->
+      @@include('templateHtml/footer.html') 
+      <!--  -->
+    </div>
+    <!--  -->
+    @@include('templateHtml/scripts.html')
+  </body>
+</html>
