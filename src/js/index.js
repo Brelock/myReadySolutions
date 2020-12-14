@@ -32,6 +32,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	
 		const fn = {
 
+      // реверс строки 
+      recString(str){
+        let newStr = '', i;
+        for (i = str.length - 1; i >= 0; i--) {
+         newStr += str.charAt(i);
+        }
+          return newStr;
+      },
+      
 			// обнуление таблицы
 			handleClearForm() {
 				$clearFormBtns.on('click', function() {

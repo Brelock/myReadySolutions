@@ -20,6 +20,7 @@
   "dependencies": {
     "gulp-install": "^1.1.0",
     "jquery": "^3.5.0",
+    "pngquant-bin": "^3.1.1",
     "uglify-js": "github:mishoo/UglifyJS2#harmony"
   },
   "devDependencies": {
